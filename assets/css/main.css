@@ -1092,10 +1092,14 @@
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
 			background-image: url("../../images/pic01.jpg");
+<<<<<<< HEAD
 			background-position: center;
 			
+=======
+			background-position: left;
+>>>>>>> e9f0e02c9818550b5c95e28594d5820a0854f843
 			background-size: cover;
-			background-repeat: no-repeat;
+			background-repeat: repeat;
 			z-index: 1;
 		}
 
