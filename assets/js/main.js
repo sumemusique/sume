@@ -310,6 +310,14 @@
 						});
 
 				});
+$('#gform').submit(function()
+ {
+    $("input[type='submit']", this)
+      .val("Enviando...")
+      .attr('disabled', 'disabled');
+ 
+    return true;
+  });
 
 			// Events.
 				$body.on('click', function(event) {
