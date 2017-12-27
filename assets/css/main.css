@@ -1238,6 +1238,12 @@ input[type="submit"],
     z-index: 1;
 }
 
+
+#bg[data-src] {
+  opacity: 0;
+}
+
+
 body.is-article-visible #bg:after
 {
     -moz-transform: scale(1.0825);
