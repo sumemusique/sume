@@ -318,6 +318,7 @@ $('#gform').submit(function()
  
     return true;
   });
+if('gform==disabled')
 
 			// Events.
 				$body.on('click', function(event) {

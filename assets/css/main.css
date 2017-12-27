@@ -698,7 +698,7 @@ input[type="radio"] + label:before
 
 .image img
 {
-    border-radius: 40px;
+    border-radius: 20px;
     display: block;
 }
 
@@ -789,7 +789,7 @@ ul
 
 ul li
 {
-    padding-left: 0.5em;
+    padding-left: 1.5em;
 }
 
 ul.alt
@@ -1457,7 +1457,6 @@ body.is-loading #bg:before
     border-bottom: 0;
 }
 
-
 #header nav ul li a:hover
 {
     background-color: rgba(255, 255, 255, 0.075);
@@ -1774,5 +1773,16 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 .audio
 {
+}
+
+dfg
+{
+    padding-bottom: 0;
+    text-decoration: underline;
+}
+
+.nuiu
+{
+    text-decoration: underline;
 }
 
