@@ -1238,11 +1238,10 @@ input[type="submit"],
     z-index: 1;
 }
 
-
-#bg[data-src] {
-  opacity: 0;
+#bg[data-src]
+{
+    opacity: 0;
 }
-
 
 body.is-article-visible #bg:after
 {
@@ -1295,10 +1294,14 @@ body.is-loading #bg:before
 
 @media screen and (max-width: 1680px)
 {
+@media screen and (max-width: 1680px)
+{
     #wrapper
     {
         padding: 3rem 2rem;
     }
+}
+
 }
 
 @media screen and (max-width: 736px)
