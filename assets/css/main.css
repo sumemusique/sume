@@ -761,7 +761,6 @@ input[type="radio"] + label:before
     width: 100%;
 }
 
-
 .image.main img
 {
     width: 100%;
@@ -1865,5 +1864,9 @@ dfg
 .nuiu
 {
     text-decoration: underline;
+}
+
+tablemus
+{
 }
 
