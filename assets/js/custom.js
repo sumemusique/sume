@@ -3,7 +3,7 @@ $(document).ready(function() {
 
     var userFeed = new Instafeed({
         get: 'user',
-        userId: 'sumemusique',
+        userId: '1440955638',
         limit: 12,
         resolution: 'standard_resolution',
         accessToken: '6f497ea10bf74604ac9b39853ffe9f9e',
