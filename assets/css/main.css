@@ -1400,7 +1400,14 @@ body.is-article-visible #bg:after
 
 body.is-loading #bg:before
 {
-    background-color: #000000;
+          -moz-transform: scale(1.0825);
+    -webkit-transform: scale(1.0825);
+    -ms-transform: scale(1.0825);
+    transform: scale(1.0825);
+    -moz-filter: blur(0.2rem);
+    -webkit-filter: blur(0.2rem);
+    -ms-filter: blur(0.2rem);
+    filter: blur(0.rem);
 }
 
 /* Wrapper */
